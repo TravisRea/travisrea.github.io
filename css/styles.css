@@ -17,7 +17,7 @@ a:link {
     height: auto;
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
-    background-color: #82b9d0;
+    background-color: #05889A;
 }
 
 
@@ -32,8 +32,8 @@ a:link {
 /*------------------------------------Nav/header--------------------------------*/
 
 #logo-head {
-    width: 70px;
-    height: 70px;
+    width: 48px;
+    height: 48px;
 }
 
 header {
@@ -47,8 +47,15 @@ nav {
     display: -ms-flexbox;
     display: flex;
 }
+.travis-nav {
+  font-family: Jaldi sans-serif;
+  font-size: 2.3rem;
+  color: #d30166;
+  font-weight: 900;
+}
 
 .nav-list {
+  font-family: Jaldi sans-serif;
     list-style-type: none;
     display: -webkit-box;
     display: -webkit-flex;
@@ -72,7 +79,7 @@ nav {
 }
 
 .nav-list li a:hover {
-    color: #eaa753;
+    color: #FFBB11;
 }
 
 .nav-list li a::before {
@@ -81,7 +88,7 @@ nav {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #db678c;
+    background-color: #D30166;
     visibility: hidden;
     content: "";
     -webkit-transform: scaleX(0);
@@ -200,7 +207,7 @@ nav {
 }
 
 .modal-text-about {
-    color: #76647F;
+    color: #9982AE;
 }
 
 .modal-name {
@@ -303,11 +310,11 @@ main {
 }
 
 #section-one {
-    background-color: #76647f;
+    background-color: #9982AE;
 }
 
 #section-two {
-    background-color: #db678c;
+    background-color: #D30166;
 }
 
 #section-three {
@@ -773,7 +780,7 @@ footer {
 }
 
 .button a:hover {
-    color: #76647f;
+    color: #9982AE;
 }
 
 .button a::before {
@@ -782,7 +789,7 @@ footer {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #eaa753;
+    background-color: #FFBB11;
     visibility: hidden;
     content: "";
     -webkit-transform: scaleX(0);
@@ -798,7 +805,7 @@ footer {
 }
 
 .modal-text-about {
-    color: #76647F;
+    color: #9982AE;
 }
 
 .logo {
