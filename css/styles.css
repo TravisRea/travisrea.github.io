@@ -14,10 +14,17 @@ a:link {
 
 #wrapper {
     width: 100%;
-    height: auto;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
     background-color: #05889A;
+    color: #fff;
+}
+.content {
+  width: 30%;
+  min-width:768px;
+  margin: 0 auto;
+  padding-top:10%;
 }
 
 
